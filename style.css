@@ -1,0 +1,28 @@
+
+form{
+  max-width: 25%;
+  margin: auto;
+  background-color: #fff;
+  position: relative;
+  top:200px;
+  padding: 20px;
+}
+
+body{
+  background-color: #ebeff5;
+
+}
+
+input{
+  width: 100%;
+}
+
+textarea{
+  min-width: 100%;
+  min-height: 50px;
+}
+
+.btn{
+  background-color: #7ae6ce;
+  color: #fff
+}
