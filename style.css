@@ -22,7 +22,11 @@ textarea{
   min-height: 50px;
 }
 
-.btn{
+.btn {
   background-color: #7ae6ce;
-  color: #fff
+  color: #fff;
+}
+
+input{
+  margin-bottom: 15px;
 }
