@@ -14,7 +14,27 @@
       <input type="tel" name="tel" id="usertel">
       <label for="contact">お問い合わせ内容</label>
       <textarea name="contact" id="contact"></textarea>
-      <input type="submit" value="送信" class="btn">
+      <!-- <input type="submit" value="送信" class="btn"> -->
+      <p class="btn">送信</p>
+      <p class="hidden">Hello World</p>
+      <p><label id="declaration"></label></p>
     </form>
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+  <script>
+    $(function(){
+      $('.btn').on('mouseenter', function(){
+        $('.hidden').hide();
+      })
+      .on('mouseleave', function(){
+        $('.hidden').show();
+      });
+    });
+    // $(function(){
+    //   $('.btn').on('click', function(){
+    //     $('#declaration').append(`<label id="alert-indicate" class="alert alert-info">ありがとうございました！</label>`);
+    //   });
+    // });
+  </script>
+
   </body>
 </html>
